@@ -55,7 +55,7 @@ require_once('librerias/cabe.php');
   			 		 ?>
                     <td><?= $roles ?></td>
   			 		<td>
-  			 			<a href="edit_usuarios.php?id=<?= $item['id']?>" class="btn btn-primary">Editar</a>
+  			 			<a href="edit_permiso.php?id=<?= $item['id']?>" class="btn btn-primary">Editar</a>
   			 		</td>
   			 		<td>
   			 			<a href="elim_usuarios.php?id=<?= $item['id']?>" class="btn btn-danger">Eliminar</a>
